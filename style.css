@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    
+    color:#4592AE;
+    
+}
+.hero{
+    width: 1500px;
+}
+.navbar{
+    background: #604e73;
+    float:left;
+    width: 200px;
+    align-items: center;
+    opacity: 70%;
+}
+.about{
+    height: 25px;
+    width: 200px;
+}
+.home{
+    height: 25px;
+    width: 200px;
+     
+    
+}
+.contact{
+    height: 25px;
+    width: 200px;
+     
+}
+.help{
+    height: 25px;
+    width: 200px;
+      
+}
+.button{
+    width: 100px;
+    height: 30px;
+    border-radius: 15%;
+    padding: 5px;
+    box-shadow: inset black;
+    margin-bottom: 5px;
+    margin-left: 30px;
+   
+}
