@@ -6,14 +6,23 @@ body {
     
 }
 .hero{
-    width: 1500px;
+    width: 1720px;
+    float: left;
+    height: 600px;
+    background-image: image-set("HERO.jpg");
+    background-size: cover;
+    image-orientation: inherit;
+    background-repeat: no-repeat;
+    scale: inherit;
+
 }
 .navbar{
-    background: #604e73;
+    background: #E2E2E2;
     float:left;
-    width: 200px;
+    width: 300px;
     align-items: center;
     opacity: 70%;
+    height: 857px;
 }
 .about{
     height: 25px;
@@ -36,12 +45,135 @@ body {
       
 }
 .button{
-    width: 100px;
-    height: 30px;
+    width: 200px;
+    height: 80px;
     border-radius: 15%;
     padding: 5px;
-    box-shadow: inset black;
     margin-bottom: 5px;
     margin-left: 30px;
+    padding: 10px 20px;
+    background-color: #c4410e; /* Default Blue */
+  color: white;
+  transition: background-color 0.3s ease; /* Smooth transition */
    
 }
+h1{
+    font:bold 2em monospace;
+    color: burlywood;
+    width: 40ch;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px;
+    animation: typing 3s steps(20);
+    blink .6s step-end infinite alternate;
+}
+@keyframes typing{from{width: 0;}}
+@keyframes blink{50%{border-color: transparent;}}
+.container-bg {
+    /* ... Your background image styles ... */
+    height: 400px; /* Define a height for the container */
+    width: 100%;
+  
+    /* --- KEY POSITIONING PROPERTY --- */
+    position: relative; /* The parent must be relative for the child to be absolute */
+  }
+  
+  .content-box {
+    /* --- ABSOLUTE POSITIONING PROPERTIES --- */
+    position: absolute; 
+    
+    /* Positions the content relative to the bottom edge */
+    bottom: 10px; 
+    
+    /* Positions the content relative to the right edge */
+    right: 10px; 
+    
+    /* Adds some padding/styling to the content */
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.6); 
+    color: white;
+  }
+  .sweety{
+    width: 1720px;
+    float: left;
+    height: 600px;
+    background-color: #E2E2E2;
+
+  }
+  .photo1{
+      width: 410px;
+      float: left;
+      height: 490px;
+      align-items: center;
+      background-image: url("img1.jpg");
+      background-repeat: no-repeat;
+      margin: 10px;
+      background-size: cover;
+  }
+  .photo2{
+      width: 300px;
+      float: left;
+      height: 490px;
+      align-items: center;
+      background-image: url("img2.jpg");
+      background-repeat: no-repeat;
+      margin: 10px;
+      background-size: cover;
+  }
+  .photo3{
+      width: 300px;
+      float: left;
+      height: 490px;
+      align-items: center;
+      background-image: url("img3.jpg");
+      background-repeat: no-repeat;
+      margin: 10px;
+      background-size: cover;
+  }
+  .photo4{
+      width: 300px;
+      float: left;
+      height: 490px;
+      align-items: center;
+      background-image: url("img4.jpg");
+      background-repeat: no-repeat;
+      margin: 10px;
+      background-size: cover;
+  }
+  .photo1:hover{
+    height: 500px;
+    width: 500px;
+    transition: all ease-in 200ms;
+    overflow: hidden;
+  }
+  .photo2:hover{
+    height: 500px;
+    width: 500px;
+    transition: all ease-in 200ms;
+    overflow: hidden;
+  }
+  .photo3:hover{
+    height: 500px;
+    width: 500px;
+    transition: all ease-in 200ms;
+    overflow: hidden;
+  }
+  .photo4:hover{
+    height: 500px;
+    width: 500px;
+    transition: all ease-in 200ms;
+    overflow: hidden;
+  }
+
+ .footer{
+    background-color: black;
+    color: beige;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    float: left;
+    font-size: medium;
+
+ } 
+  
+  
